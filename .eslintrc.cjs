@@ -17,6 +17,7 @@ module.exports = {
   rules: {
     'no-console': isProduction ? ['warn', { allow: ['error', 'warn'] }] : 'off',
     'no-debugger': isProduction ? 'error' : 'off',
+    '@typescript-eslint/no-unused-vars': 'error',
     'vue/attributes-order': [
       'error',
       {
