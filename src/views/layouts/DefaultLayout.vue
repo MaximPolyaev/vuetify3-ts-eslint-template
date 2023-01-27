@@ -1,12 +1,10 @@
 <template>
   <v-app :theme="theme">
-    <v-layout>
-      <navigation-drawer />
-      <app-bar />
-      <v-main>
-        <v-container>Content area</v-container>
-      </v-main>
-    </v-layout>
+    <navigation-drawer />
+    <app-bar />
+    <v-main>
+      <v-container>Content area</v-container>
+    </v-main>
   </v-app>
 </template>
 
