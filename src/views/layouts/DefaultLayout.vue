@@ -3,7 +3,7 @@
     <navigation-drawer />
     <app-bar />
     <v-main>
-      <v-container>Content area</v-container>
+      <router-view />
     </v-main>
   </v-app>
 </template>
