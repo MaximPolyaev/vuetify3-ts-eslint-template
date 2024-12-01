@@ -1,20 +1,15 @@
 <template>
   <v-navigation-drawer v-model="drawer">
     <v-list-item>
-      <v-list-item-title class="text-h4 py-2"
-        >Your app {{ $route.name }}</v-list-item-title
-      >
+      <v-list-item-title class="text-h4 py-2">
+        Your app
+      </v-list-item-title>
     </v-list-item>
     <v-divider />
+    <v-list-item link title="Main" href="/" :active="$route.name === 'main'" />
     <v-list-item
       link
-      title="Главная"
-      href="/"
-      :active="$route.name === 'main'"
-    />
-    <v-list-item
-      link
-      title="Форма"
+      title="Form"
       href="/form"
       :active="$route.name === 'form'"
     />
