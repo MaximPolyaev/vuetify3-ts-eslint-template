@@ -12,12 +12,12 @@ const router = createRouter({
       children: [
         {
           path: '/',
-          name: 'Главная',
+          name: 'main',
           component: MainPage,
         },
         {
           path: '/form',
-          name: 'Форма',
+          name: 'form',
           component: FormPage,
         },
       ],
